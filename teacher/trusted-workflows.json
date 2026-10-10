@@ -1,0 +1,13 @@
+{
+  "schema": "teacher-trusted-workflows-v1",
+  "repository": "hrgentry/smart-sensing-info-proc-assignments",
+  "workflowPath": ".github/workflows/receipt.yml",
+  "deadlineUtc": "2026-10-21T15:59:59Z",
+  "versions": [
+    {
+      "version": "receipt-v1",
+      "sha256": "597706b4c830df942b965495629131a203ef60acf5ba8095494ac70c673b9b0e",
+      "recordedAt": "2026-10-10T01:27:23.069Z"
+    }
+  ]
+}

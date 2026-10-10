@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.impeccable/
+.gstack/
+.claude/
+.codex/
+.env
+.env.*
+*.pem
+*.key
+*.log
+.teacher-private/
+__pycache__/
+*.pyc

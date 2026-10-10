@@ -1,0 +1,41 @@
+name: Submission receipt
+
+on:
+  push:
+    branches:
+      - 'student/**'
+
+permissions: {}
+
+jobs:
+  receipt:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a safe receipt lookup hint
+        env:
+          RECEIPT_REPOSITORY: ${{ github.repository }}
+          RECEIPT_ACTOR: ${{ github.actor }}
+          RECEIPT_BRANCH: ${{ github.ref_name }}
+          RECEIPT_HEAD_SHA: ${{ github.sha }}
+          RECEIPT_RUN_ID: ${{ github.run_id }}
+          RECEIPT_RUN_ATTEMPT: ${{ github.run_attempt }}
+          RECEIPT_EVENT: ${{ github.event_name }}
+        run: |
+          node <<'NODE'
+          const e = process.env;
+          const hint = {
+            schema: 'submission-receipt-hint-v1',
+            workflowVersion: 'receipt-v1',
+            repository: e.RECEIPT_REPOSITORY,
+            actor: e.RECEIPT_ACTOR,
+            branch: e.RECEIPT_BRANCH,
+            headSha: e.RECEIPT_HEAD_SHA,
+            runId: e.RECEIPT_RUN_ID,
+            runAttempt: e.RECEIPT_RUN_ATTEMPT,
+            event: e.RECEIPT_EVENT,
+            runUrl: `https://github.com/${e.RECEIPT_REPOSITORY}/actions/runs/${e.RECEIPT_RUN_ID}`,
+            notice: 'Lookup hint only. Verify GitHub API run.created_at, head_sha, event, path, branch/actor and the workflow hash at that SHA against the teacher allowlist. Logs are not authoritative timestamps or grading results.'
+          };
+          process.stdout.write(JSON.stringify(hint, null, 2) + '\n');
+          NODE
+
