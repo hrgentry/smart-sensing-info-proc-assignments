@@ -28,7 +28,7 @@ API 元数据及校验结果保存为 JSON，workflow 原字节也保留；`--sn
 经审查修改 workflow 时先更新其 `workflowVersion`，再运行：
 
 ```sh
-node scripts/approve-workflow.mjs receipt-v2
+node scripts/approve-workflow.mjs receipt-v3
 ```
 
 清单追加新哈希，**不删除或替换 receipt-v1**，以免把以前正常产生的收据追溯判无效。同一版本内容改变时脚本拒绝覆盖，须使用新版本。

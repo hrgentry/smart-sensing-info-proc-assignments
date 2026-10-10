@@ -25,7 +25,7 @@ jobs:
           const e = process.env;
           const hint = {
             schema: 'submission-receipt-hint-v1',
-            workflowVersion: 'receipt-v1',
+            workflowVersion: 'receipt-v2',
             repository: e.RECEIPT_REPOSITORY,
             actor: e.RECEIPT_ACTOR,
             branch: e.RECEIPT_BRANCH,
@@ -38,4 +38,3 @@ jobs:
           };
           process.stdout.write(JSON.stringify(hint, null, 2) + '\n');
           NODE
-
