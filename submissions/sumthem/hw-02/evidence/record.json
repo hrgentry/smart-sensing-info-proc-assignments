@@ -1,0 +1,969 @@
+{
+  "schema": "hw02-record-v1",
+  "modelVersion": "v1",
+  "case": "laser",
+  "roundId": "round-1792395550274-xudy5o",
+  "startedAt": "2026-10-19T07:39:10.274Z",
+  "newRoundReason": {
+    "kind": "recheck",
+    "label": "重新检验或修正操作",
+    "note": "看看各个按钮有什么用，但是好像记录了一大堆无用的操作",
+    "at": "2026-10-19T07:39:10.272Z"
+  },
+  "prediction": {
+    "statement": "量块高度与图像行号存在一定的映射关系，遮挡后的读数存在偏离或空的情况",
+    "reason": "测量设备架设硬件情况是已知的，通过几何能推导出解析式",
+    "confidence": 90,
+    "initial4quadrants": {
+      "knownKnown": "仍未知",
+      "knownUnknown": "遮挡后的具体是什么样的",
+      "implicitKnowledge": "感觉遮挡后可能是偏离一定程度的大小或者完全无记录",
+      "unknownUnknown": "仍未知"
+    },
+    "lockedAt": "2026-10-19T07:41:53.864Z"
+  },
+  "records": [
+    {
+      "recordId": "R01",
+      "at": "2026-10-19T07:42:03.693Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 0,
+        "stripe": "visible",
+        "repeat_index": 1,
+        "repeat_total": 1,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": 220,
+        "height_mm": 0,
+        "status": "valid",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": 220,
+          "height_mm": 0,
+          "status": "valid"
+        }
+      },
+      "modelVersion": "v1"
+    },
+    {
+      "recordId": "R02",
+      "at": "2026-10-19T07:45:26.194Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "visible",
+        "repeat_index": 1,
+        "repeat_total": 1,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": 200,
+        "height_mm": 10,
+        "status": "valid",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": 200,
+          "height_mm": 10,
+          "status": "valid"
+        }
+      },
+      "modelVersion": "v1"
+    },
+    {
+      "recordId": "R03",
+      "at": "2026-10-19T07:45:29.615Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 20,
+        "stripe": "visible",
+        "repeat_index": 1,
+        "repeat_total": 1,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": 180,
+        "height_mm": 20,
+        "status": "valid",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": 180,
+          "height_mm": 20,
+          "status": "valid"
+        }
+      },
+      "modelVersion": "v1"
+    },
+    {
+      "recordId": "R04",
+      "at": "2026-10-19T07:45:53.890Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "visible",
+        "repeat_index": 1,
+        "repeat_total": 3,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": 200,
+        "height_mm": 10,
+        "status": "valid",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": 200,
+          "height_mm": 10,
+          "status": "valid"
+        }
+      },
+      "modelVersion": "v1"
+    },
+    {
+      "recordId": "R05",
+      "at": "2026-10-19T07:45:53.890Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "visible",
+        "repeat_index": 2,
+        "repeat_total": 3,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": 200,
+        "height_mm": 10,
+        "status": "valid",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": 200,
+          "height_mm": 10,
+          "status": "valid"
+        }
+      },
+      "modelVersion": "v1"
+    },
+    {
+      "recordId": "R06",
+      "at": "2026-10-19T07:45:53.891Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "visible",
+        "repeat_index": 3,
+        "repeat_total": 3,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": 200,
+        "height_mm": 10,
+        "status": "valid",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": 200,
+          "height_mm": 10,
+          "status": "valid"
+        }
+      },
+      "modelVersion": "v1"
+    },
+    {
+      "recordId": "R07",
+      "at": "2026-10-19T07:46:05.325Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 15,
+        "stripe": "visible",
+        "repeat_index": 1,
+        "repeat_total": 1,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": 190,
+        "height_mm": 15,
+        "status": "valid",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": 190,
+          "height_mm": 15,
+          "status": "valid"
+        }
+      },
+      "modelVersion": "v1"
+    },
+    {
+      "recordId": "R08",
+      "at": "2026-10-19T07:46:13.550Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "visible",
+        "repeat_index": 1,
+        "repeat_total": 1,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": 200,
+        "height_mm": 10,
+        "status": "valid",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": 200,
+          "height_mm": 10,
+          "status": "valid"
+        }
+      },
+      "modelVersion": "v1"
+    },
+    {
+      "recordId": "R09",
+      "at": "2026-10-19T07:46:19.577Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "occluded",
+        "repeat_index": 1,
+        "repeat_total": 1,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": null,
+        "height_mm": null,
+        "status": "missing",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": null,
+          "height_mm": null,
+          "status": "missing"
+        }
+      },
+      "modelVersion": "v1"
+    },
+    {
+      "recordId": "R10",
+      "at": "2026-10-19T07:46:35.724Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "occluded",
+        "repeat_index": 1,
+        "repeat_total": 1,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": null,
+        "height_mm": null,
+        "status": "missing",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": null,
+          "height_mm": null,
+          "status": "missing"
+        }
+      },
+      "modelVersion": "v1"
+    }
+  ],
+  "after": {
+    "originalStatement": "量块高度与图像行号存在一定的映射关系，遮挡后的读数存在偏离或空的情况",
+    "updatedStatement": "量块高度与图像行号存在一定的映射关系，遮挡后的读数为空的情况",
+    "supported": "图像直接消失，读数因此记录为空",
+    "unsupported": "暂无",
+    "stillUnknown": "具体的映射关系中是否有未知量和难以测量量，亦或者简化几何关系导致的误差有多大",
+    "nextTest": "比较测量图像测量和实际值，看看误差的大小什么的",
+    "boundary": "当测量的硬件假设信息发生改变的时候",
+    "confidence": 95,
+    "updated4quadrants": {
+      "knownKnown": "仍未知",
+      "knownUnknown": "具体的映射关系中是否有未知量和难以测量量，亦或者简化几何关系导致的误差有多大",
+      "implicitKnowledge": "暂无",
+      "unknownUnknown": "仍未知"
+    },
+    "savedAt": "2026-10-19T07:51:42.703Z",
+    "recordIds": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "R07",
+      "R08",
+      "R09",
+      "R10"
+    ]
+  },
+  "afterHistory": [],
+  "draftPrediction": null,
+  "draftAfter": null,
+  "archivedRounds": [
+    {
+      "schema": "hw02-record-v1",
+      "modelVersion": "v1",
+      "case": "laser",
+      "roundId": "round-1792211045984-aqtt2p",
+      "startedAt": "2026-10-17T04:24:05.984Z",
+      "newRoundReason": {
+        "kind": "initial",
+        "label": "首次开启",
+        "note": "",
+        "at": "2026-10-17T04:24:05.984Z"
+      },
+      "prediction": {
+        "statement": "量块高度和图像行号存在一定的映射关系，遮挡后的读数超出面相机拍摄范围，可能读数偏大或偏小",
+        "reason": "依据是测量设备是预设的，其硬件信息是固定的，只要已知参考面高度，测量已知量，可以通过一些几何关系得到精确的几何解析式。",
+        "confidence": 90,
+        "initial4quadrants": {
+          "knownKnown": "硬件架设信息",
+          "knownUnknown": "几何解析式中是否有其他未知量或难测量量",
+          "implicitKnowledge": "暂无",
+          "unknownUnknown": "仍未知"
+        },
+        "lockedAt": "2026-10-19T07:36:58.654Z"
+      },
+      "records": [
+        {
+          "recordId": "R01",
+          "at": "2026-10-19T07:37:09.084Z",
+          "operation": "laser-reading",
+          "parameters": {
+            "height_mm": 0,
+            "stripe": "visible",
+            "repeat_index": 1,
+            "repeat_total": 1,
+            "units": {
+              "height_mm": "mm",
+              "stripe": "category",
+              "repeat_index": "count",
+              "repeat_total": "count"
+            }
+          },
+          "readings": {
+            "row_px": 220,
+            "height_mm": 0,
+            "status": "valid",
+            "units": {
+              "row_px": "px",
+              "height_mm": "mm",
+              "status": "category"
+            },
+            "summary": {
+              "row_px": 220,
+              "height_mm": 0,
+              "status": "valid"
+            }
+          },
+          "modelVersion": "v1"
+        },
+        {
+          "recordId": "R02",
+          "at": "2026-10-19T07:37:10.713Z",
+          "operation": "laser-reading",
+          "parameters": {
+            "height_mm": 10,
+            "stripe": "visible",
+            "repeat_index": 1,
+            "repeat_total": 1,
+            "units": {
+              "height_mm": "mm",
+              "stripe": "category",
+              "repeat_index": "count",
+              "repeat_total": "count"
+            }
+          },
+          "readings": {
+            "row_px": 200,
+            "height_mm": 10,
+            "status": "valid",
+            "units": {
+              "row_px": "px",
+              "height_mm": "mm",
+              "status": "category"
+            },
+            "summary": {
+              "row_px": 200,
+              "height_mm": 10,
+              "status": "valid"
+            }
+          },
+          "modelVersion": "v1"
+        },
+        {
+          "recordId": "R03",
+          "at": "2026-10-19T07:37:11.479Z",
+          "operation": "laser-reading",
+          "parameters": {
+            "height_mm": 0,
+            "stripe": "visible",
+            "repeat_index": 1,
+            "repeat_total": 1,
+            "units": {
+              "height_mm": "mm",
+              "stripe": "category",
+              "repeat_index": "count",
+              "repeat_total": "count"
+            }
+          },
+          "readings": {
+            "row_px": 220,
+            "height_mm": 0,
+            "status": "valid",
+            "units": {
+              "row_px": "px",
+              "height_mm": "mm",
+              "status": "category"
+            },
+            "summary": {
+              "row_px": 220,
+              "height_mm": 0,
+              "status": "valid"
+            }
+          },
+          "modelVersion": "v1"
+        },
+        {
+          "recordId": "R04",
+          "at": "2026-10-19T07:38:03.768Z",
+          "operation": "laser-reading",
+          "parameters": {
+            "height_mm": 0,
+            "stripe": "visible",
+            "repeat_index": 1,
+            "repeat_total": 1,
+            "units": {
+              "height_mm": "mm",
+              "stripe": "category",
+              "repeat_index": "count",
+              "repeat_total": "count"
+            }
+          },
+          "readings": {
+            "row_px": 220,
+            "height_mm": 0,
+            "status": "valid",
+            "units": {
+              "row_px": "px",
+              "height_mm": "mm",
+              "status": "category"
+            },
+            "summary": {
+              "row_px": 220,
+              "height_mm": 0,
+              "status": "valid"
+            }
+          },
+          "modelVersion": "v1"
+        },
+        {
+          "recordId": "R05",
+          "at": "2026-10-19T07:38:05.269Z",
+          "operation": "laser-reading",
+          "parameters": {
+            "height_mm": 10,
+            "stripe": "visible",
+            "repeat_index": 1,
+            "repeat_total": 1,
+            "units": {
+              "height_mm": "mm",
+              "stripe": "category",
+              "repeat_index": "count",
+              "repeat_total": "count"
+            }
+          },
+          "readings": {
+            "row_px": 200,
+            "height_mm": 10,
+            "status": "valid",
+            "units": {
+              "row_px": "px",
+              "height_mm": "mm",
+              "status": "category"
+            },
+            "summary": {
+              "row_px": 200,
+              "height_mm": 10,
+              "status": "valid"
+            }
+          },
+          "modelVersion": "v1"
+        },
+        {
+          "recordId": "R06",
+          "at": "2026-10-19T07:38:08.735Z",
+          "operation": "laser-reading",
+          "parameters": {
+            "height_mm": 0,
+            "stripe": "visible",
+            "repeat_index": 1,
+            "repeat_total": 1,
+            "units": {
+              "height_mm": "mm",
+              "stripe": "category",
+              "repeat_index": "count",
+              "repeat_total": "count"
+            }
+          },
+          "readings": {
+            "row_px": 220,
+            "height_mm": 0,
+            "status": "valid",
+            "units": {
+              "row_px": "px",
+              "height_mm": "mm",
+              "status": "category"
+            },
+            "summary": {
+              "row_px": 220,
+              "height_mm": 0,
+              "status": "valid"
+            }
+          },
+          "modelVersion": "v1"
+        },
+        {
+          "recordId": "R07",
+          "at": "2026-10-19T07:38:09.457Z",
+          "operation": "laser-reading",
+          "parameters": {
+            "height_mm": 10,
+            "stripe": "visible",
+            "repeat_index": 1,
+            "repeat_total": 1,
+            "units": {
+              "height_mm": "mm",
+              "stripe": "category",
+              "repeat_index": "count",
+              "repeat_total": "count"
+            }
+          },
+          "readings": {
+            "row_px": 200,
+            "height_mm": 10,
+            "status": "valid",
+            "units": {
+              "row_px": "px",
+              "height_mm": "mm",
+              "status": "category"
+            },
+            "summary": {
+              "row_px": 200,
+              "height_mm": 10,
+              "status": "valid"
+            }
+          },
+          "modelVersion": "v1"
+        },
+        {
+          "recordId": "R08",
+          "at": "2026-10-19T07:38:10.042Z",
+          "operation": "laser-reading",
+          "parameters": {
+            "height_mm": 20,
+            "stripe": "visible",
+            "repeat_index": 1,
+            "repeat_total": 1,
+            "units": {
+              "height_mm": "mm",
+              "stripe": "category",
+              "repeat_index": "count",
+              "repeat_total": "count"
+            }
+          },
+          "readings": {
+            "row_px": 180,
+            "height_mm": 20,
+            "status": "valid",
+            "units": {
+              "row_px": "px",
+              "height_mm": "mm",
+              "status": "category"
+            },
+            "summary": {
+              "row_px": 180,
+              "height_mm": 20,
+              "status": "valid"
+            }
+          },
+          "modelVersion": "v1"
+        },
+        {
+          "recordId": "R09",
+          "at": "2026-10-19T07:38:10.922Z",
+          "operation": "laser-reading",
+          "parameters": {
+            "height_mm": 0,
+            "stripe": "visible",
+            "repeat_index": 1,
+            "repeat_total": 1,
+            "units": {
+              "height_mm": "mm",
+              "stripe": "category",
+              "repeat_index": "count",
+              "repeat_total": "count"
+            }
+          },
+          "readings": {
+            "row_px": 220,
+            "height_mm": 0,
+            "status": "valid",
+            "units": {
+              "row_px": "px",
+              "height_mm": "mm",
+              "status": "category"
+            },
+            "summary": {
+              "row_px": 220,
+              "height_mm": 0,
+              "status": "valid"
+            }
+          },
+          "modelVersion": "v1"
+        },
+        {
+          "recordId": "R10",
+          "at": "2026-10-19T07:38:11.335Z",
+          "operation": "laser-reading",
+          "parameters": {
+            "height_mm": 10,
+            "stripe": "visible",
+            "repeat_index": 1,
+            "repeat_total": 1,
+            "units": {
+              "height_mm": "mm",
+              "stripe": "category",
+              "repeat_index": "count",
+              "repeat_total": "count"
+            }
+          },
+          "readings": {
+            "row_px": 200,
+            "height_mm": 10,
+            "status": "valid",
+            "units": {
+              "row_px": "px",
+              "height_mm": "mm",
+              "status": "category"
+            },
+            "summary": {
+              "row_px": 200,
+              "height_mm": 10,
+              "status": "valid"
+            }
+          },
+          "modelVersion": "v1"
+        },
+        {
+          "recordId": "R11",
+          "at": "2026-10-19T07:38:12.512Z",
+          "operation": "laser-reading",
+          "parameters": {
+            "height_mm": 0,
+            "stripe": "visible",
+            "repeat_index": 1,
+            "repeat_total": 1,
+            "units": {
+              "height_mm": "mm",
+              "stripe": "category",
+              "repeat_index": "count",
+              "repeat_total": "count"
+            }
+          },
+          "readings": {
+            "row_px": 220,
+            "height_mm": 0,
+            "status": "valid",
+            "units": {
+              "row_px": "px",
+              "height_mm": "mm",
+              "status": "category"
+            },
+            "summary": {
+              "row_px": 220,
+              "height_mm": 0,
+              "status": "valid"
+            }
+          },
+          "modelVersion": "v1"
+        },
+        {
+          "recordId": "R12",
+          "at": "2026-10-19T07:38:13.360Z",
+          "operation": "laser-reading",
+          "parameters": {
+            "height_mm": 20,
+            "stripe": "visible",
+            "repeat_index": 1,
+            "repeat_total": 1,
+            "units": {
+              "height_mm": "mm",
+              "stripe": "category",
+              "repeat_index": "count",
+              "repeat_total": "count"
+            }
+          },
+          "readings": {
+            "row_px": 180,
+            "height_mm": 20,
+            "status": "valid",
+            "units": {
+              "row_px": "px",
+              "height_mm": "mm",
+              "status": "category"
+            },
+            "summary": {
+              "row_px": 180,
+              "height_mm": 20,
+              "status": "valid"
+            }
+          },
+          "modelVersion": "v1"
+        },
+        {
+          "recordId": "R13",
+          "at": "2026-10-19T07:38:14.169Z",
+          "operation": "laser-reading",
+          "parameters": {
+            "height_mm": 10,
+            "stripe": "visible",
+            "repeat_index": 1,
+            "repeat_total": 3,
+            "units": {
+              "height_mm": "mm",
+              "stripe": "category",
+              "repeat_index": "count",
+              "repeat_total": "count"
+            }
+          },
+          "readings": {
+            "row_px": 200,
+            "height_mm": 10,
+            "status": "valid",
+            "units": {
+              "row_px": "px",
+              "height_mm": "mm",
+              "status": "category"
+            },
+            "summary": {
+              "row_px": 200,
+              "height_mm": 10,
+              "status": "valid"
+            }
+          },
+          "modelVersion": "v1"
+        },
+        {
+          "recordId": "R14",
+          "at": "2026-10-19T07:38:14.170Z",
+          "operation": "laser-reading",
+          "parameters": {
+            "height_mm": 10,
+            "stripe": "visible",
+            "repeat_index": 2,
+            "repeat_total": 3,
+            "units": {
+              "height_mm": "mm",
+              "stripe": "category",
+              "repeat_index": "count",
+              "repeat_total": "count"
+            }
+          },
+          "readings": {
+            "row_px": 200,
+            "height_mm": 10,
+            "status": "valid",
+            "units": {
+              "row_px": "px",
+              "height_mm": "mm",
+              "status": "category"
+            },
+            "summary": {
+              "row_px": 200,
+              "height_mm": 10,
+              "status": "valid"
+            }
+          },
+          "modelVersion": "v1"
+        },
+        {
+          "recordId": "R15",
+          "at": "2026-10-19T07:38:14.170Z",
+          "operation": "laser-reading",
+          "parameters": {
+            "height_mm": 10,
+            "stripe": "visible",
+            "repeat_index": 3,
+            "repeat_total": 3,
+            "units": {
+              "height_mm": "mm",
+              "stripe": "category",
+              "repeat_index": "count",
+              "repeat_total": "count"
+            }
+          },
+          "readings": {
+            "row_px": 200,
+            "height_mm": 10,
+            "status": "valid",
+            "units": {
+              "row_px": "px",
+              "height_mm": "mm",
+              "status": "category"
+            },
+            "summary": {
+              "row_px": 200,
+              "height_mm": 10,
+              "status": "valid"
+            }
+          },
+          "modelVersion": "v1"
+        }
+      ],
+      "after": null,
+      "afterHistory": [],
+      "draftPrediction": null,
+      "draftAfter": {
+        "updatedStatement": "",
+        "supported": "",
+        "unsupported": "",
+        "stillUnknown": "",
+        "nextTest": "",
+        "boundary": "",
+        "confidence": "",
+        "updated4quadrants": {
+          "knownKnown": "",
+          "knownUnknown": "",
+          "implicitKnowledge": "",
+          "unknownUnknown": ""
+        }
+      },
+      "archivedAt": "2026-10-19T07:39:10.274Z",
+      "archiveReason": {
+        "kind": "recheck",
+        "label": "重新检验或修正操作",
+        "note": "看看各个按钮有什么用，但是好像记录了一大堆无用的操作",
+        "at": "2026-10-19T07:39:10.272Z"
+      },
+      "completion": {
+        "status": "incomplete",
+        "missing": [
+          "saved-after-conclusion",
+          "updated-four-quadrants",
+          "unsaved-after-changes"
+        ]
+      }
+    }
+  ],
+  "completion": {
+    "status": "complete",
+    "missing": []
+  },
+  "exportKind": "final",
+  "calibration": [
+    {
+      "height_mm": 0,
+      "row_px": 220
+    },
+    {
+      "height_mm": 10,
+      "row_px": 200
+    },
+    {
+      "height_mm": 20,
+      "row_px": 180
+    }
+  ],
+  "calibrationUnits": {
+    "height_mm": "mm",
+    "row_px": "px"
+  }
+}
