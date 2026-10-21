@@ -1,0 +1,15 @@
+{
+  "schema": "hw02-submission-v1",
+  "assignment": "hw-02",
+  "githubLogin": "xydarwinx",
+  "case": "quality",
+  "report": "report.md",
+  "aiDisclosure": "ai-disclosure.md",
+  "record": "evidence/record.json",
+  "screenshots": [
+    "evidence/01-only-stop.png",
+    "evidence/02-zero.png",
+    "evidence/03-correct.png",
+    "evidence/04-no-disturbance.png"
+  ]
+}
