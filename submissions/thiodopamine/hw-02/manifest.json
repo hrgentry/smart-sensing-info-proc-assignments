@@ -1,0 +1,10 @@
+{
+  "schema": "hw02-submission-v1",
+  "assignment": "hw-02",
+  "githubLogin": "thiodopamine",
+  "case": "quality",
+  "report": "report.md",
+  "aiDisclosure": "ai-disclosure.md",
+  "record": "evidence/record.json",
+  "screenshots": ["evidence/01-baseline.png", "evidence/02-changed-condition-1.png","evidence/03-changed-condition-2.png"]
+}
