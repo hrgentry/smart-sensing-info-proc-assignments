@@ -1,0 +1,13 @@
+{
+  "schema": "hw02-submission-v1",
+  "assignment": "hw-02",
+  "githubLogin": "sumthem",
+  "case": "laser",
+  "report": "report.md",
+  "aiDisclosure": "ai-disclosure.md",
+  "record": "evidence/record.json",
+  "screenshots": [
+    "evidence/01-baseline.png",
+    "evidence/02-change-condition.png"
+  ]
+}
