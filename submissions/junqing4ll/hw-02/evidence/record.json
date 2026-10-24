@@ -1,0 +1,379 @@
+{
+  "schema": "hw02-record-v1",
+  "modelVersion": "v1",
+  "case": "laser",
+  "roundId": "round-1792861774406-kvycvg",
+  "startedAt": "2026-10-24T17:09:34.406Z",
+  "newRoundReason": {
+    "kind": "initial",
+    "label": "首次开启",
+    "note": "",
+    "at": "2026-10-24T17:09:34.406Z"
+  },
+  "prediction": {
+    "statement": "我初步认为，当量块高度增加时，条纹在相机图像中的位置会发生规律性变化。我猜测条纹可能向图像上方移动，像面行号随之减小。当条纹被遮挡、无法获得有效读数时，不应该直接给出确定的高度值，而应该标记为缺测或无效数据。",
+    "reason": "量块高度改变后，条纹与相机之间的成像几何关系会发生变化，因此条纹在图像中的位置也可能改变。不过，由于尚未了解实验装置的具体成像方向，目前不能确定行号变化的实际方向。对于遮挡情况，没有有效观测数据就缺少可靠的高度计算依据，直接填入数值可能造成误差。",
+    "confidence": 60,
+    "initial4quadrants": {
+      "knownKnown": "通常数字图像中的行号从上向下递增。利用图像中的条纹位置进行高度测量，需要建立标定关系。",
+      "knownUnknown": "尚未确认量块高度与像面行号之间究竟是正相关还是负相关，也没有验证二者是否近似满足线性关系。",
+      "implicitKnowledge": "我初步理解可以通过比较不同高度下的条纹位置变化来建立标定关系，但还不清楚具体计算步骤及误差处理方法。",
+      "unknownUnknown": "仍未知，可能还有尚未考虑的成像误差或测量条件限制。"
+    },
+    "lockedAt": "2026-10-24T17:11:09.082Z"
+  },
+  "records": [
+    {
+      "recordId": "R01",
+      "at": "2026-10-24T17:11:14.928Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 0,
+        "stripe": "visible",
+        "repeat_index": 1,
+        "repeat_total": 1,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": 220,
+        "height_mm": 0,
+        "status": "valid",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": 220,
+          "height_mm": 0,
+          "status": "valid"
+        }
+      },
+      "modelVersion": "v1"
+    },
+    {
+      "recordId": "R02",
+      "at": "2026-10-24T17:11:21.264Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "visible",
+        "repeat_index": 1,
+        "repeat_total": 1,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": 200,
+        "height_mm": 10,
+        "status": "valid",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": 200,
+          "height_mm": 10,
+          "status": "valid"
+        }
+      },
+      "modelVersion": "v1"
+    },
+    {
+      "recordId": "R03",
+      "at": "2026-10-24T17:11:22.846Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 20,
+        "stripe": "visible",
+        "repeat_index": 1,
+        "repeat_total": 1,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": 180,
+        "height_mm": 20,
+        "status": "valid",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": 180,
+          "height_mm": 20,
+          "status": "valid"
+        }
+      },
+      "modelVersion": "v1"
+    },
+    {
+      "recordId": "R04",
+      "at": "2026-10-24T17:11:24.699Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "visible",
+        "repeat_index": 1,
+        "repeat_total": 3,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": 200,
+        "height_mm": 10,
+        "status": "valid",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": 200,
+          "height_mm": 10,
+          "status": "valid"
+        }
+      },
+      "modelVersion": "v1"
+    },
+    {
+      "recordId": "R05",
+      "at": "2026-10-24T17:11:24.700Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "visible",
+        "repeat_index": 2,
+        "repeat_total": 3,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": 200,
+        "height_mm": 10,
+        "status": "valid",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": 200,
+          "height_mm": 10,
+          "status": "valid"
+        }
+      },
+      "modelVersion": "v1"
+    },
+    {
+      "recordId": "R06",
+      "at": "2026-10-24T17:11:24.700Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "visible",
+        "repeat_index": 3,
+        "repeat_total": 3,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": 200,
+        "height_mm": 10,
+        "status": "valid",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": 200,
+          "height_mm": 10,
+          "status": "valid"
+        }
+      },
+      "modelVersion": "v1"
+    },
+    {
+      "recordId": "R07",
+      "at": "2026-10-24T17:11:37.426Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 15,
+        "stripe": "visible",
+        "repeat_index": 1,
+        "repeat_total": 1,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": 190,
+        "height_mm": 15,
+        "status": "valid",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": 190,
+          "height_mm": 15,
+          "status": "valid"
+        }
+      },
+      "modelVersion": "v1"
+    },
+    {
+      "recordId": "R08",
+      "at": "2026-10-24T17:11:46.015Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "visible",
+        "repeat_index": 1,
+        "repeat_total": 1,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": 200,
+        "height_mm": 10,
+        "status": "valid",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": 200,
+          "height_mm": 10,
+          "status": "valid"
+        }
+      },
+      "modelVersion": "v1"
+    },
+    {
+      "recordId": "R09",
+      "at": "2026-10-24T17:12:38.924Z",
+      "operation": "laser-reading",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "occluded",
+        "repeat_index": 1,
+        "repeat_total": 1,
+        "units": {
+          "height_mm": "mm",
+          "stripe": "category",
+          "repeat_index": "count",
+          "repeat_total": "count"
+        }
+      },
+      "readings": {
+        "row_px": null,
+        "height_mm": null,
+        "status": "missing",
+        "units": {
+          "row_px": "px",
+          "height_mm": "mm",
+          "status": "category"
+        },
+        "summary": {
+          "row_px": null,
+          "height_mm": null,
+          "status": "missing"
+        }
+      },
+      "modelVersion": "v1"
+    }
+  ],
+  "after": {
+    "originalStatement": "我初步认为，当量块高度增加时，条纹在相机图像中的位置会发生规律性变化。我猜测条纹可能向图像上方移动，像面行号随之减小。当条纹被遮挡、无法获得有效读数时，不应该直接给出确定的高度值，而应该标记为缺测或无效数据。",
+    "updatedStatement": "根据本轮实验结果，我认为在当前标定范围内，量块高度增加时，像面行号呈线性减小趋势。通过两个标定点可以得到 r=220-2h 的关系，并利用该关系反算量块高度。当条纹被遮挡且无法获得有效行号时，应将测量结果标记为缺测，而不是直接填入数值。",
+    "supported": "R01、R02、R03 分别对应 0 mm、10 mm、20 mm，像面行号依次为 220、200、180 px，支持高度增加时行号减小的判断。R07 的 15 mm 对应 190 px，按照标定公式反算得到 15 mm，与输入高度一致。R04～R06 的三次重复读数均为 200 px。R08 与 R09 的量块高度同为 10 mm，仅改变条纹可见性，结果由有效读数变为缺测，支持遮挡时不能直接给出有效高度读数的判断。",
+    "unsupported": "本轮实验中没有发现直接推翻初始判断的反例。但现有数据不能证明该线性关系适用于全部高度，也不能证明实际测量不存在误差。R09 没有有效行号，因此不能根据该记录计算出真实测量高度。",
+    "stillUnknown": "目前尚不清楚在更大高度范围内，像面行号与高度是否仍然保持线性关系。另外，实际环境中的噪声、光照变化和部分遮挡是否会影响测量结果，也没有得到充分验证。",
+    "nextTest": "可以增加 5 mm 等未参与标定的高度点，比较反算结果与已知高度的差异，并多次重复读取以检验结果的稳定性。还可以进一步改变遮挡程度，观察传感器从有效读数转为缺测的条件。",
+    "boundary": "本次结论主要适用于实验台中 0～20 mm 范围内的测试数据。现有结果支持这一范围内的线性标定关系，但不能直接推广到更大高度范围或真实复杂测量环境。R07 的反算差值为 0 mm，仅说明本次数据与所用线性关系一致，不意味着测量系统不存在误差。",
+    "confidence": 85,
+    "updated4quadrants": {
+      "knownKnown": "根据 R01、R02、R03 和 R07，可以确认本轮有效数据符合 r=220-2h 的关系。R08 与 R09 说明，当量块高度相同而条纹由可见变为遮挡时，测量结果可以由有效读数变为缺测。",
+      "knownUnknown": "尚未验证该关系在 0～20 mm 以外是否成立，也没有验证噪声、光照变化、部分遮挡等条件下的测量准确性。",
+      "implicitKnowledge": "通过重复读数一致这一现象，我初步认为当前实验条件下的测量结果比较稳定，但还不能充分说明真实测量系统的重复性与抗干扰能力。",
+      "unknownUnknown": "仍未知。当前只能识别已经考虑到的误差来源，可能还存在尚未发现的其他影响因素。"
+    },
+    "savedAt": "2026-10-24T17:17:58.415Z",
+    "recordIds": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "R07",
+      "R08",
+      "R09"
+    ]
+  },
+  "afterHistory": [],
+  "draftPrediction": null,
+  "draftAfter": null,
+  "archivedRounds": [],
+  "completion": {
+    "status": "complete",
+    "missing": []
+  },
+  "exportKind": "final",
+  "calibration": [
+    {
+      "height_mm": 0,
+      "row_px": 220
+    },
+    {
+      "height_mm": 10,
+      "row_px": 200
+    },
+    {
+      "height_mm": 20,
+      "row_px": 180
+    }
+  ],
+  "calibrationUnits": {
+    "height_mm": "mm",
+    "row_px": "px"
+  }
+}
