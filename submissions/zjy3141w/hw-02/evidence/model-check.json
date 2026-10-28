@@ -1,0 +1,194 @@
+{
+  "schema": "hw02-supplemental-model-check-v1",
+  "source": "Direct invocation of the unchanged teaching model through Node.js; not an experiment-platform export",
+  "actor": "student",
+  "recordCompiledWith": "AI assistance",
+  "modelVersion": "v1",
+  "modelSource": "assignments/hw-02/model.js",
+  "modelSha256": "58d4d354cd4c709ad453274bbab99998ad8428e1379dc4bbda3898ff149d1687",
+  "startedAt": "2026-10-28T10:43:14.682Z",
+  "prediction": {
+    "statement": "In the supplied 0-20 mm model, increasing height decreases row number; occlusion returns null rather than zero.",
+    "provenance": "AI-assisted proposal, authorized by the user; not locked in the experiment platform",
+    "confidence": 95
+  },
+  "records": [
+    {
+      "checkId": "M01",
+      "at": "2026-10-28T10:43:14.684Z",
+      "parameters": {
+        "height_mm": 0,
+        "stripe": "visible"
+      },
+      "readings": {
+        "row_px": 220,
+        "height_mm": 0,
+        "status": "valid"
+      },
+      "units": {
+        "input_height": "mm",
+        "row": "px",
+        "recovered_height": "mm"
+      }
+    },
+    {
+      "checkId": "M02",
+      "at": "2026-10-28T10:43:14.685Z",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "visible"
+      },
+      "readings": {
+        "row_px": 200,
+        "height_mm": 10,
+        "status": "valid"
+      },
+      "units": {
+        "input_height": "mm",
+        "row": "px",
+        "recovered_height": "mm"
+      }
+    },
+    {
+      "checkId": "M03",
+      "at": "2026-10-28T10:43:14.685Z",
+      "parameters": {
+        "height_mm": 20,
+        "stripe": "visible"
+      },
+      "readings": {
+        "row_px": 180,
+        "height_mm": 20,
+        "status": "valid"
+      },
+      "units": {
+        "input_height": "mm",
+        "row": "px",
+        "recovered_height": "mm"
+      }
+    },
+    {
+      "checkId": "M04",
+      "at": "2026-10-28T10:43:14.686Z",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "visible"
+      },
+      "readings": {
+        "row_px": 200,
+        "height_mm": 10,
+        "status": "valid"
+      },
+      "units": {
+        "input_height": "mm",
+        "row": "px",
+        "recovered_height": "mm"
+      }
+    },
+    {
+      "checkId": "M05",
+      "at": "2026-10-28T10:43:14.687Z",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "visible"
+      },
+      "readings": {
+        "row_px": 200,
+        "height_mm": 10,
+        "status": "valid"
+      },
+      "units": {
+        "input_height": "mm",
+        "row": "px",
+        "recovered_height": "mm"
+      }
+    },
+    {
+      "checkId": "M06",
+      "at": "2026-10-28T10:43:14.687Z",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "visible"
+      },
+      "readings": {
+        "row_px": 200,
+        "height_mm": 10,
+        "status": "valid"
+      },
+      "units": {
+        "input_height": "mm",
+        "row": "px",
+        "recovered_height": "mm"
+      }
+    },
+    {
+      "checkId": "M07",
+      "at": "2026-10-28T10:43:14.689Z",
+      "parameters": {
+        "height_mm": 7.5,
+        "stripe": "visible"
+      },
+      "readings": {
+        "row_px": 205,
+        "height_mm": 7.5,
+        "status": "valid"
+      },
+      "units": {
+        "input_height": "mm",
+        "row": "px",
+        "recovered_height": "mm"
+      }
+    },
+    {
+      "checkId": "M08",
+      "at": "2026-10-28T10:43:14.690Z",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "visible"
+      },
+      "readings": {
+        "row_px": 200,
+        "height_mm": 10,
+        "status": "valid"
+      },
+      "units": {
+        "input_height": "mm",
+        "row": "px",
+        "recovered_height": "mm"
+      }
+    },
+    {
+      "checkId": "M09",
+      "at": "2026-10-28T10:43:14.691Z",
+      "parameters": {
+        "height_mm": 10,
+        "stripe": "occluded"
+      },
+      "readings": {
+        "row_px": null,
+        "height_mm": null,
+        "status": "missing"
+      },
+      "units": {
+        "input_height": "mm",
+        "row": "px",
+        "recovered_height": "mm"
+      }
+    }
+  ],
+  "completion": {
+    "status": "incomplete",
+    "missing": [
+      "experiment-platform-export",
+      "two-comparison-screenshots",
+      "student-calculation-verification",
+      "saved-platform-after-update"
+    ]
+  },
+  "finishedAt": "2026-10-28T10:43:14.692Z",
+  "checksPassed": [
+    "midpoint",
+    "three-repeated-readings",
+    "same-height-occlusion"
+  ]
+}
